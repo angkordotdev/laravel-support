@@ -3,7 +3,7 @@
 **Angkor common** support helpers, contracts, and traits required by various Angkor packages. Validator functionality, and basic controller included out-of-the-box.
 
 [![Packagist](https://img.shields.io/packagist/v/angkor/laravel-support.svg?label=Packagist&style=flat-square)](https://packagist.org/packages/angkor/laravel-support)
-[![License](https://img.shields.io/packagist/l/angkor/laravel-support.svg?label=License&style=flat-square)](https://github.com/angkor/laravel-support/blob/develop/LICENSE)
+[![License](https://img.shields.io/packagist/l/angkor/laravel-support.svg?label=License&style=flat-square)](https://github.com/angkordotdev/laravel-support/blob/main/LICENSE)
 
 This package is a fork of the excellent [rinvex/laravel-support](https://github.com/rinvex/laravel-support) package by Rinvex. We are grateful for their work which serves as the foundation for this package.
 
