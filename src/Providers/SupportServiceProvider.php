@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Rinvex\Support\Providers;
+namespace Angkor\Support\Providers;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
-use Rinvex\Support\Validators\UniqueWithValidator;
+use Angkor\Support\Validators\UniqueWithValidator;
 use Illuminate\Support\Facades\Validator as ValidatorFacade;
 
 class SupportServiceProvider extends ServiceProvider

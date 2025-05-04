@@ -1,6 +1,6 @@
 {
-    "name": "rinvex/laravel-support",
-    "description": "Rinvex common support helpers, contracts, and traits required by various Rinvex packages. Validator functionality, and basic controller included out-of-the-box.",
+    "name": "angkor/laravel-support",
+    "description": "Ankgor common support helpers, contracts, and traits required by various Ankgor packages. Validator functionality, and basic controller included out-of-the-box.",
     "type": "library",
     "keywords": [
         "rinvex",
@@ -14,18 +14,18 @@
         "trait"
     ],
     "license": "MIT",
-    "homepage": "https://rinvex.com/marketplace/rinvex-support/",
+    "homepage": "https://open.angkor.dev",
     "support": {
-        "email": "help@rinvex.com",
-        "issues": "https://github.com/rinvex/laravel-support/issues",
-        "source": "https://github.com/rinvex/laravel-support",
-        "docs": "https://github.com/rinvex/laravel-support/blob/master/README.md"
+        "email": "khmer@angkor.dev",
+        "issues": "https://github.com/angkordotdev/laravel-support/issues",
+        "source": "https://github.com/angkordotdev/laravel-support",
+        "docs": "https://github.com/angkordotdev/laravel-support/blob/main/README.md"
     },
     "authors": [
         {
-            "name": "Rinvex LLC",
-            "homepage": "https://rinvex.com",
-            "email": "help@rinvex.com"
+            "name": "Angkor Dev",
+            "homepage": "https://angkor.dev",
+            "email": "khmer@angkordotdev.com"
         },
         {
             "name": "Abdelrahman Omran",
@@ -34,18 +34,23 @@
             "role": "Project Lead"
         },
         {
+            "name": "Sophy SEM",
+            "homepage": "https://angkor.dev",
+            "email": "khmer@angkor.dev"
+        },
+        {
             "name": "The Generous Laravel Community",
-            "homepage": "https://github.com/rinvex/laravel-support/contributors"
+            "homepage": "https://github.com/angkordotdev/laravel-support/contributors"
         }
     ],
     "require": {
         "php": "^8.1.0",
-        "illuminate/database": "^10.0.0 || ^11.0.0",
-        "illuminate/support": "^10.0.0 || ^11.0.0",
+        "illuminate/database": "^10.0.0 || ^11.0.0 || ^12.0.0",
+        "illuminate/support": "^10.0.0 || ^11.0.0 || ^12.0.0",
         "spatie/laravel-sluggable": "^3.4.0",
         "spatie/laravel-schemaless-attributes": "^2.4.0",
         "spatie/laravel-translatable": "^6.0.0",
-        "vinkla/hashids": "^11.0.0 || ^12.0.0",
+        "vinkla/hashids": "^11.0.0 || ^12.0.0 || ^13.0.0",
         "watson/validating": "^8.0.0"
     },
     "require-dev": {
@@ -57,12 +62,12 @@
             "src/Support/helpers.php"
         ],
         "psr-4": {
-            "Rinvex\\Support\\": "src/"
+            "Angkor\\Support\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rinvex\\Support\\Tests\\": "tests"
+            "Angkor\\Support\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -76,7 +81,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rinvex\\Support\\Providers\\SupportServiceProvider"
+                "Angkor\\Support\\Providers\\SupportServiceProvider"
             ]
         }
     },
